@@ -1,0 +1,12 @@
+header{
+    height: 100px;
+    background: wheat;
+}
+footer{
+    height: 200px;
+    background: blueviolet;
+}
+main{
+    min-height: 600px;
+    border: 1px solid brown;
+}

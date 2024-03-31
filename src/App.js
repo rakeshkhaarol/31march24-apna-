@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+//IMPORT area
+import React from 'react'
+import Header from './component/Header'
+import Footer from './component/Footer'
+//function definetion area
+export default function App() {
+  //hooks area
 
-function App() {
+  //function definetion area
+
+
+  //return statments
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='container-fluid p-0'>
+     <Header/>
+      <main>main</main>
+      <Footer/>
     </div>
-  );
+  )
 }
-
-export default App;
